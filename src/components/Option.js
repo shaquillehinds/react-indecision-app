@@ -1,9 +1,12 @@
 import React from "react";
 
 const Option = (props) => (
-  <li>
-    {props.option}
-    <button onClick={(e) => props.handleDeleteOption(props.option)}>
+  <li className="widget__option">
+    {props.index + 1}. {props.option}
+    <button
+      className="button button--link"
+      onClick={(e) => props.handleDeleteOption(props.option)}
+    >
       Remove
     </button>
   </li>

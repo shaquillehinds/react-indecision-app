@@ -1,0 +1,49 @@
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+}
+// Big Button
+.big-button {
+  background-color: $purple;
+  border: none;
+  border-bottom: 0.6rem solid darken($purple, 10%);
+  color: white;
+  width: 100%;
+  padding: 2.4rem;
+  margin-bottom: $m-size;
+  font-size: 2.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.big-button:disabled {
+  opacity: 0.5;
+}
+
+// Button
+
+.button {
+  background: $purple;
+  border: none;
+  border-bottom: 0.3rem solid darken($purple, 10%);
+  color: white;
+  font-weight: 500;
+  padding: $s-size;
+  word-break: keep-all;
+}
+
+.button--link {
+  background: none;
+  border: none;
+  color: $off-white;
+  padding: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .big-button {
+    margin-bottom: $xl-size;
+    font-size: $l-size;
+  }
+}
