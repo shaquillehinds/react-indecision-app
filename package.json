@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "server.js",
+    "start": "node server.js",
     "serve": "live-server public/",
     "build": "webpack",
     "dev-server": "webpack-dev-server",
