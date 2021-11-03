@@ -23,7 +23,7 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-modal": "^3.11.2",
-    "validator": "^8.0.0",
+    "validator": "^13.7.0",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
